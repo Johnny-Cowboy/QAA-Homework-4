@@ -8,7 +8,7 @@ steps:
 name: Checkout
 users: actions/checkout@v3
 name: Cypress run
-users:cypress-io/github-action@v5
+users: cypress-io/github-action@v5
 with:
 build: npm run build
 start: npm start
