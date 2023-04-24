@@ -13,7 +13,7 @@ describe('API-Test', () => {
           })
         })
 
-        it('Test niestandardowego naglówka', () => {
+        it('Test niestandardowego naglowka', () => {
             cy.request({
               method: 'GET',
               url: 'https://httpbin.org/headers',
